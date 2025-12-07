@@ -1,15 +1,30 @@
+// ignore_for_file: constant_identifier_names, use_full_hex_values_for_flutter_colors, unused_field
+
 import 'package:flutter/material.dart';
 
-class AppColors {
-  static const Color primary = Color(0xFF2196F3);
-  static const Color secondary = Color(0xFF03DAC6);
-  static const Color error = Color(0xFFB00020);
-  static const Color success = Color(0xFF4CAF50);
-  static const Color warning = Color(0xFFFF9800);
-
-  static const Color textPrimary = Color(0xFF212121);
-  static const Color textSecondary = Color(0xFF757575);
-
-  static const Color background = Color(0xFFFAFAFA);
-  static const Color surface = Color(0xFFFFFFFF);
+class Constants {
+  static const white = Colors.white;
+  static const themeBgColorLight = Color(0xffffdf7f6);
+  static const borderColor = Color(0xfffedf6f9);
+  static const subtitleclr = Color(0xfff898d8c);
+  static const hintColor = Color(0xfffa8a3a3);
+  static const blue = Color(0xfff5783e2);
+  static const green = Color(0xfff0b6623);
+  static const lightBlue = Color(0xff4fc3ff);
+  static const yellow = Color(0xffffe96e);
+  static const lightdull = Color(0xffff2f2f2);
+  static const navyblue = Color(0xff00308f);
+  static const dullBlue = Color(0xfffccf5ff);
+  static const darkBlue = Color(0xfff018aff);
+  static const themeBgColor = Color(0xfff5783e2);
+  static const black = Color(0xfff030303);
+  static const orange = Color(0xffff27070);
+  static const int _redPrimaryValue = 0xffce3538;
+  static const yelloLight = Color(0xffffefcef);
+  static const yelloborder = Color(0xffff4f0d3);
+  static const red = Color(0xfff840918);
+  static const darkgreen = Color(0xfff348708);
+  static const offwhite = Color(0xffff1eded);
+  static const bluegrey = Color(0xfff0097b2);
+  static const winecolor = Color(0xfff471320);
 }
