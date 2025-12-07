@@ -2,12 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:provider/provider.dart';
-
 import '../../flutter_package_for_personal.dart';
-import '../enum/enum.dart';
-import '../model/job_title_model.dart';
-import '../provider/suggestion_text_field_provider.dart';
-import '../text/custom_text.dart';
 
 class CustomSuggestionTextField extends StatelessWidget {
   final TextEditingController controller;
