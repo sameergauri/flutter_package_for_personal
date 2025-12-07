@@ -10,6 +10,8 @@ export 'src/global/global.dart';
 export 'src/model/job_title_model.dart';
 // Providers
 export 'src/provider/suggestion_text_field_provider.dart';
+// Export custom text
+export 'src/text/custom_text.dart';
 // Export suggestion text field
 export 'src/textfields/custom_suggestion_text_field.dart';
 // Export all textfields
