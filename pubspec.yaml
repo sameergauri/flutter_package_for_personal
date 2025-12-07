@@ -1,7 +1,7 @@
 name: flutter_package_for_personal
 description: "A new Flutter package project."
 version: 0.0.1
-homepage: https://github.com/yourusername/my_ui_widgets
+homepage: https://github.com/sameergauri/flutter_package_for_personal
 
 environment:
   sdk: ^3.10.1
