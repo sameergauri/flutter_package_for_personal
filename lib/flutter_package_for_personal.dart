@@ -20,8 +20,6 @@ export 'src/buttons/custom_icon_title_button.dart';
 export 'src/buttons/custom_toggle_button.dart';
 // Enums
 export 'src/enum/enum.dart';
-// Export global constants
-export 'src/global/global.dart';
 // Export image widgets
 export 'src/image/custom_network_image.dart';
 // Models
