@@ -3,14 +3,14 @@
 import 'package:flutter/material.dart';
 import '../../flutter_package_for_personal.dart';
 
-class customButton extends StatelessWidget {
+class CustomfloatingActionButton extends StatelessWidget {
   final VoidCallback onTap;
   final String title;
   final Color? buttonColor;
   final Color? textColor;
   final bool? isBorder;
 
-  const customButton({
+  const CustomfloatingActionButton({
     super.key,
     required this.onTap,
     required this.title,
@@ -24,7 +24,6 @@ class customButton extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        margin: const EdgeInsets.only(top: 10, left: 20, right: 20, bottom: 10),
         decoration: BoxDecoration(
           color: buttonColor ?? Constants.darkBlue,
           borderRadius: BorderRadius.circular(8),
@@ -32,18 +31,12 @@ class customButton extends StatelessWidget {
               ? Border.all(color: Constants.darkBlue)
               : const Border(),
         ),
-        width: double.maxFinite,
-        padding: const EdgeInsets.only(bottom: 8, top: 8),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            customText(
-              title: title,
-              fontSize: 14,
-              fontWeight: FontWeight.bold,
-              color: textColor ?? Colors.white,
-            ),
-          ],
+        padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 12),
+        child: customText(
+          title: title,
+          fontSize: 14,
+          fontWeight: FontWeight.bold,
+          color: textColor ?? Colors.white,
         ),
       ),
     );
