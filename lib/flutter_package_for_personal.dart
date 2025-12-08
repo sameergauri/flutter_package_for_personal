@@ -36,3 +36,7 @@ export 'src/textfields/custom_suggestion_text_field.dart';
 export 'src/textfields/custom_text_field_for_all.dart';
 // Export utils
 export 'src/utils/colors.dart';
+// Export document upload button
+export 'src/buttons/custom_document_upload_button.dart';
+// Export document view button
+export 'src/buttons/custom_document_view_button.dart';
