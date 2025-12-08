@@ -38,3 +38,5 @@ export 'src/utils/colors.dart';
 export 'src/buttons/custom_document_upload_button.dart';
 // Export document view button
 export 'src/buttons/custom_document_view_button.dart';
+// Export loading indicator
+export 'src/loading/custom_loading.dart';
